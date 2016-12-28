@@ -7,6 +7,7 @@ Libraries included:
 - Typescript
 - React
 - Webpack
+- Mocha (for unit tests)
 
 
 ## Building
@@ -14,8 +15,7 @@ Libraries included:
 Install dependencies
 
 ```
-$ npm -g typescript
-$ npm -g webpack
+$ npm -g typescript tslint webpack
 ```
 
 Build

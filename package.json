@@ -4,7 +4,7 @@
   "description": "Starter template for modern JavaScript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "author": "YOUR NAME",
   "license": "MIT",
@@ -16,7 +16,9 @@
   },
   "devDependencies": {
     "awesome-typescript-loader": "^3.0.0-beta.17",
+    "mocha": "^3.2.0",
     "source-map-loader": "^0.1.5",
+    "tslint": "^4.2.0",
     "typescript": "^2.1.4"
   }
 }
